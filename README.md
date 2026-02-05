@@ -1,7 +1,7 @@
-# N4utilus 🐚
+# N4utilus 
 
-N4utilus is a Python-based cryptographic bot detector built with FastAPI.
-It uses a challenge–response mechanism (nonce + HMAC-SHA256) to help
+N4utilus is a Python based cryptographic bot detector built with FastAPI.
+It uses a challenge response mechanism (nonce + HMAC-SHA256) to help
 distinguish legitimate clients from automated bots.
 
 ## How it works
@@ -19,3 +19,9 @@ distinguish legitimate clients from automated bots.
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+
+## How to run
+
+### Start the server
+```powershell
+python -m uvicorn server:app --reload
