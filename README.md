@@ -5,7 +5,7 @@
 # N4utilus
 
 N4utilus is a Python-based cryptographic bot detection service built with **FastAPI**.  
-It uses a **challenge–response mechanism** (nonce + HMAC-SHA256) to help distinguish legitimate clients from automated bots.
+It uses a **challenge–response mechanism** (nonce + HMAC-SHA256) to help distinguish legitimate users from automated bots.
 
 ---
 
